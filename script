@@ -4,7 +4,7 @@ pipeline {
         stage('Clean workspace and Navigate to the folder'){
             steps{
                 cleanWs()
-                bat 'copy C:\\\\Users\\\\vijay\\\\Desktop\\\\Journey\\\\java "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\pipe4"'
+                bat 'copy C:\\\\Users\\\\vijay\\\\Desktop\\\\Journey\\\\java "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\jenkinspipelinedemo"'
             }
         }
         stage('Build') {
