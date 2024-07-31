@@ -2,6 +2,6 @@ class helloTest
 {
     public static void main(String []args)
     {
-        System.out.println("We had asus");
+        System.out.println("New Line");
     }
 };
